@@ -43,3 +43,10 @@ boxes[2].innerHTML = "我是盒子";
 for(var i = 0; i < 10; i++) {
     console.log("迴圈執行次數：" + i);
 }
+
+// 陣列 長度 length ：陣列的數量
+console.log("陣列的數量：" + boxes.length);
+
+for(var i = 0; i < boxes.length; i++) {
+    boxes[i].innerHTML = "用迴圈修改內容的盒子 " + (i + 1);
+}
